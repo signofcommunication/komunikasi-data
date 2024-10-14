@@ -26,8 +26,6 @@ function App() {
     };
   }, []);
 
-  console.log(sortedData);
-
   return (
     <>
       {sortedData.length > 0 ? ( // Tampilkan jika ada data
